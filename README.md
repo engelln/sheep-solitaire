@@ -2,7 +2,7 @@
 A Java command line implementation of the solitaire card game "Shephy".
 
 # Introduction
-This project was created in Spring 2018 to practice OOP inheritance.
+This project was created in Spring 2018 as part of my programming 2 class to practice OOP inheritance.
 
 [Here is a video of a playthrough of the physical card game (not by me).](https://www.youtube.com/watch?v=3UZNdNApnqE)
 
