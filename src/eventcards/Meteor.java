@@ -13,8 +13,8 @@ public class Meteor extends EventCard {
 	@Override
 	public void playCard(int status) {
 		for(int i = 0; i < 3; i++) {
-			int highestValueIndex = SheepGame.getSheepField().findHighestValueIndex();
-			SheepGame.getSheepField().getField()[highestValueIndex] = null;
+			int lowestValueIndex = SheepGame.getSheepField().findLowestValueIndex();
+			SheepGame.getSheepField().getField()[lowestValueIndex] = null;
 		}
 		if(status == 0 || status == 1) {
 			SheepGame.getPlayerHand().removeCard(this);
